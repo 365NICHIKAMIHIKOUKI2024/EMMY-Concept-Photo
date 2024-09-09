@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+        background-position: top;
+    }
+}
 body {
     background-image: url('https://i.ibb.co/3MtcXss/Emmy365.png');
     background-size: cover;
