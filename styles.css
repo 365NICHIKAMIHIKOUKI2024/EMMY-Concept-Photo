@@ -1,18 +1,19 @@
 body {
     background-image: url('https://i.ibb.co/3MtcXss/Emmy365.png');
-    background-size: 100% 100%; /* Ensures the image covers the full screen */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     color: white;
     height: 100vh;
-    margin: 0; /* Remove margins to ensure full coverage */
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end; 
     align-items: center;
     text-align: center;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 button {
   background-color: #1da1f2;
