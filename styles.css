@@ -1,7 +1,9 @@
 @media (max-width: 768px) {
     body {
         background-size: contain;
-        background-position: top;
+        background-position: center;
+        background-attachment: scroll;
+        padding: 10px;
     }
 }
 body {
